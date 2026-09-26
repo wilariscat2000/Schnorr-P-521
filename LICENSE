@@ -1,21 +1,385 @@
-MIT License
+Alexander License
 
 Copyright (c) 2026 wilariscat2000
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
+1. DEFINITIONS
 
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
+1.1 "Software" or "Work" means the source code, object code,
+documentation, configuration, scripts, examples, and other
+copyrightable material released by [COPYRIGHT HOLDER] under this
+License, together with any portion of that material.
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
+1.2 "Original Work" means the Work as originally released by
+[COPYRIGHT HOLDER] under this License, including subsequent official
+versions, but excluding material identified as subject to a separate
+third-party license.
+
+1.3 "Derivative Work" means a work based upon, incorporating,
+adapting, translating, or otherwise transforming the Original Work or
+a substantial portion of it, to the extent it qualifies as a
+derivative work under applicable copyright law.
+
+A work that merely interoperates with the Work, implements an
+interface, calls a public API, or independently reimplements
+functionality WITHOUT copying or adapting protectable expression is
+NOT, solely for those reasons, a Derivative Work. Copyright protects
+expression, not ideas, functions, or interfaces — an independently
+written implementation of the same function, algorithm, or interface
+is not a Derivative Work merely because it serves the same purpose.
+
+1.4 "Modification" means an alteration, adaptation, translation,
+rewrite, refactoring, or other change to PRE-EXISTING material from
+the Work — whether made by editing that material in place or by
+copying, relocating, or adapting it into another file, module, or
+section. Renaming a file or relocating copied code does not, by
+itself, convert a Modification into a New Original Contribution.
+
+A Modification does NOT include material genuinely authored from
+scratch that does not copy, adapt, translate, or incorporate
+pre-existing expressive material from the Work.
+
+1.5 "New Original Contribution" means a file, module, function,
+class, or other material authored entirely from scratch by a
+Contributor, containing no copied, adapted, translated, or otherwise
+incorporated pre-existing expressive material from the Work. Merely
+using documented APIs, interfaces, protocols, ideas, or algorithms
+considered at an abstract level does not, by itself, make
+independently authored material a Modification.
+
+1.6 "Contributor" means any person or entity that authors and
+distributes a Modification or New Original Contribution as part of
+the Work.
+
+1.7 "You" or "Licensee" means any person or entity exercising rights
+under this License.
+
+1.8 "Distribute" means to sell, resell, license, sublicense, publish,
+upload, transmit, make available, or otherwise transfer or make
+accessible the Software or a Derivative Work to a third party, in
+source or object form, for payment or without charge.
+
+1.9 "Notice" means the copyright notice, license text, or
+Modification Notice required by this License. "Modification Notice"
+means the notice required by Section 3.
+
+1.10 "Material Breach" means a violation of a condition of this
+License that substantially defeats a right granted under this
+License. Failure to provide a required Modification Notice, or
+failure to retain required copyright/license notices, constitutes a
+Material Breach.
+
+1.11 "Patent Claim" means a patent claim owned or controlled by the
+relevant Licensor or Contributor that is necessarily infringed by
+exercising the rights granted under this License with respect to that
+party's Original Work or Contribution.
+
+2. GRANT OF COPYRIGHT RIGHTS
+
+Subject to the conditions of this License, [COPYRIGHT HOLDER] grants
+You a worldwide, non-exclusive, royalty-free, no-charge copyright
+license to:
+
+  (a) use, reproduce, and copy the Software;
+  (b) modify the Software and create Derivative Works;
+  (c) merge, combine, or incorporate the Software with other material;
+  (d) publish, distribute, and sublicense the Software and Derivative
+      Works, in source or object form; and
+  (e) exercise the foregoing for any purpose, including commercial
+      use, at no charge and without payment of royalties.
+
+This License imposes NO requirement to disclose, publish, or make
+available the source code of any Modification, Derivative Work, or
+New Original Contribution — except for the notice conditions in
+Section 3 and Section 4, which are notice obligations, not
+source-disclosure obligations.
+
+3. MANDATORY MARKING OF MODIFICATIONS
+
+3.1 General requirement. If You make a Modification to pre-existing
+material from the Work, You must add a Modification Notice to each
+file or section You altered, stating:
+
+  (a) that the file or section was changed from its original form;
+  (b) a specific, meaningful summary of the change (a description such
+      as "changed stuff" or "misc edits" is insufficient where a more
+      specific description can reasonably be given);
+  (c) the date the change was made; and
+  (d) the identity of the modifier (legal name, organizational
+      identity, or a persistent public handle that reasonably
+      identifies them — "anonymous" or "someone" is not sufficient
+      where the modifier's identity is reasonably known).
+
+3.2 Placement. The Notice must be placed in the file header,
+immediately above the altered section, or in an immediately
+associated notice file where an embedded notice is not practicable
+for the file format. A commit message, changelog, or release note
+ALONE does not satisfy this requirement, though it may be used in
+addition.
+
+3.3 Multiple alterations / multiple modifiers. A single file-level
+Notice may cover multiple altered sections if it clearly identifies
+each one; otherwise each section needs its own. Where different
+people modify the same file over time, notices may accumulate — each
+modifier must still be separately identified with their own date and
+summary.
+
+3.4 Timing. The Notice must be added when the Modification is made
+and, in all cases, before the modified material is Distributed.
+
+3.5 Scope — what this does NOT cover. This marking requirement
+applies ONLY to Modifications of pre-existing material. It does NOT
+require a "modified" Notice for a New Original Contribution — material
+authored from scratch that contains no copied, adapted, or
+incorporated pre-existing expressive material from the Work. A new
+filename alone does not exempt copied code: if a "new" file contains a
+copied or adapted portion of pre-existing material, THAT portion is a
+Modification and must be marked, even though the rest of the new file
+may remain a New Original Contribution requiring no notice.
+
+4. RETENTION OF COPYRIGHT AND LICENSE NOTICES
+
+When You Distribute the Work, a copy of it, or a substantial portion
+of it, You must retain:
+
+  (a) the original copyright notice ([YEAR], [COPYRIGHT HOLDER]); and
+  (b) the complete text of this License.
+
+Where embedding the full notice directly in a file is impracticable,
+you may satisfy this by including it in an accompanying LICENSE,
+NOTICE, or equivalent file distributed alongside the affected copy.
+You must not remove or obscure a required notice in a manner that
+materially impairs its visibility.
+
+5. PERMISSIVE LICENSING — DOWNSTREAM TERMS FOR NEW CONTRIBUTIONS
+
+5.1 This is a permissive license, not copyleft. You are never
+required to disclose the source code of your Modifications,
+Derivative Works, or New Original Contributions as a condition of
+this License.
+
+5.2 You may license Your New Original Contributions under this
+License, under additional terms, or under an entirely different
+license (including proprietary terms), PROVIDED that:
+
+  (a) the Original Work and all Modifications of pre-existing material
+      remain governed by this License;
+  (b) You do not impose terms that restrict a recipient's rights under
+      this License with respect to the Original Work or Modifications;
+      and
+  (c) recipients can reasonably tell which portions are governed by
+      this License and which are governed by Your additional/different
+      terms.
+
+5.3 You may not represent that the Original Work itself has been
+relicensed under terms that remove or contradict this License.
+
+6. EXPRESS PATENT LICENSE
+
+6.1 Grant. Subject to Section 6.2, each Licensor and Contributor
+grants You a worldwide, non-exclusive, royalty-free patent license
+under that party's Patent Claims to make, use, sell, offer for sale,
+import, and otherwise transfer the Work or that party's Contribution,
+limited to Patent Claims necessarily infringed by the Work or
+Contribution as distributed by that party. This license does not
+extend to patent claims arising solely from combining the Work with
+unrelated products, or to claims owned by unrelated third parties.
+
+6.2 Defensive termination. If You institute patent litigation against
+[COPYRIGHT HOLDER] or a Contributor alleging that the Work or a
+Contribution infringes a patent, the patent license granted to You
+under this Section by the targeted party terminates automatically as
+of the date such litigation is filed. This affects only the patent
+license in this Section — it does not terminate copyright rights
+under Section 2.
+
+7. NO TRADEMARK RIGHTS
+
+This License does not grant any right to use the name, trademarks,
+service marks, logos, or product names of [COPYRIGHT HOLDER] or any
+Contributor, except as necessary to accurately describe the origin of
+the Software. You may not use such marks to imply endorsement,
+sponsorship, or affiliation without separate written permission.
+
+8. NO SUPPORT OR MAINTENANCE OBLIGATION
+
+[COPYRIGHT HOLDER] and Contributors have no obligation to provide
+support, maintenance, updates, bug fixes, or security patches. No
+such obligation is created merely by distributing the Work under this
+License.
+
+9. DISCLAIMER OF WARRANTY
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
+EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, TITLE, AND
+NON-INFRINGEMENT. THE ENTIRE RISK AS TO THE QUALITY AND PERFORMANCE OF
+THE SOFTWARE IS WITH YOU.
+
+TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, ALL SUCH WARRANTIES
+ARE DISCLAIMED. Some jurisdictions do not allow the exclusion of
+certain implied warranties, so some of the above exclusions may not
+apply to You. This disclaimer does not purport to exclude any warranty
+that cannot be excluded under applicable law.
+
+10. LIMITATION OF LIABILITY
+
+TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, IN NO EVENT SHALL
+[COPYRIGHT HOLDER], ANY CONTRIBUTOR, OR ANY AUTHOR OR MAINTAINER OF
+THE WORK BE LIABLE FOR ANY CLAIM, DAMAGES, OR OTHER LIABILITY —
+WHETHER IN CONTRACT, TORT, STRICT LIABILITY, NEGLIGENCE, OR OTHERWISE
+— ARISING FROM, OUT OF, OR IN CONNECTION WITH THE SOFTWARE OR THE USE
+OF OR OTHER DEALINGS IN THE SOFTWARE, INCLUDING DIRECT, INDIRECT,
+INCIDENTAL, SPECIAL, EXEMPLARY, CONSEQUENTIAL, AND PUNITIVE DAMAGES,
+AND LOSS OF PROFITS, DATA, OR GOODWILL, EVEN IF ADVISED OF THE
+POSSIBILITY OF SUCH DAMAGES.
+
+YOU ASSUME ALL RISK ARISING FROM YOUR USE OF THE SOFTWARE.
+
+Some jurisdictions do not permit the exclusion or limitation of
+liability for gross negligence, willful misconduct, fraud, or death or
+personal injury caused by negligence, and some consumer-protection
+statutes override contractual liability waivers regardless of this
+text. NOTHING IN THIS SECTION IS INTENDED TO EXCLUDE OR LIMIT
+LIABILITY TO THE EXTENT APPLICABLE LAW PROHIBITS SUCH EXCLUSION.
+
+11. TERMINATION FOR MATERIAL BREACH
+
+11.1 Your rights under this License continue for as long as You
+comply with its conditions.
+
+11.2 If You commit a Material Breach, [COPYRIGHT HOLDER] or the
+relevant Contributor may give You written notice describing the
+breach. You have thirty (30) calendar days from receipt of that
+notice — or from the date You otherwise become aware of the breach,
+whichever is earlier — to cure it.
+
+11.3 If the breach is fully cured within that period, Your rights are
+not terminated by reason of that breach. If not cured within 30 days,
+all rights granted to You under this License terminate automatically
+at the end of that period, without further notice or judicial action.
+
+11.4 Termination does not affect rights lawfully granted by You to
+downstream recipients before Your termination, provided those
+recipients remain in compliance with this License.
+
+11.5 Sections 1, 4, 7, 8, 9, 10, 12, 13, and 14 survive termination.
+
+12. SEVERABILITY
+
+If a provision of this License is held invalid, illegal, or
+unenforceable in a jurisdiction, it shall be enforced to the maximum
+extent permitted in that jurisdiction, or severed if it cannot be so
+enforced, without affecting the remaining provisions or the
+enforceability of the same provision in another jurisdiction. This
+Section does not weaken the risk-allocation intent of Sections 9 and
+10, which shall be enforced to the maximum extent the law allows.
+
+13. GOVERNING LAW AND JURISDICTION
+
+This License shall be governed by:
+
+  [GOVERNING LAW / JURISDICTION — TO BE COMPLETED BY LICENSOR
+   WITH LEGAL COUNSEL]
+
+This selection is a deliberate legal decision, not a drafting detail,
+and should be completed only after obtaining legal advice appropriate
+to the jurisdiction(s) where the Work will be distributed or used.
+
+14. NO IMPLIED RIGHTS; ENTIRE LICENSE
+
+Except as expressly granted here, no license or right is granted by
+implication, estoppel, or otherwise — including no trademark or
+patent rights beyond those expressly stated in Sections 6 and 7. This
+document is the entire license between [COPYRIGHT HOLDER] and You
+concerning the Software and supersedes any prior understanding
+regarding it. Explanatory summaries, examples, or commentary published
+outside this License text (including any accompanying README or
+NOTICE-TEMPLATE file) are not part of this License and have no
+independent legal effect.
+
+15. MANDATORY DISCLAIMER
+
+THIS IS AN AI-DRAFTED LICENSE TEMPLATE, NOT LEGAL ADVICE. It has not
+been reviewed by a licensed attorney and has not been validated as
+legally sufficient for any specific project, country, state, or
+jurisdiction.
+
+Software license enforceability varies significantly by jurisdiction.
+Warranty disclaimers, liability limitations, automatic-termination
+provisions, patent grants, and choice-of-law clauses can all be
+subject to mandatory legal rules a private license cannot override —
+for example, UK law (Unfair Contract Terms Act 1977) prohibits
+excluding liability for death or personal injury caused by negligence,
+and US commercial law (UCC) imposes unconscionability limits and
+special protections for personal-injury damages in consumer
+transactions. Rules differ by jurisdiction, and the [GOVERNING LAW]
+placeholder above is intentionally left blank because that choice
+materially affects which of these rules apply.
+
+Before adopting this license for any real, publicly distributed
+project, have the complete text reviewed by a qualified intellectual-
+property attorney in the relevant jurisdiction(s), with particular
+attention to: the enforceability of the liability and warranty
+limitations, the patent grant and defensive-termination provision,
+consumer-protection requirements, the termination/cure mechanics, and
+the governing-law selection.
+
+================================================================
+END OF LICENSE TEXT
+================================================================
+
+
+APPENDIX A — RECOMMENDED MODIFICATION NOTICE TEMPLATES
+(Not part of the License itself — provided for convenience.)
+
+For a modified pre-existing file:
+
+    /*
+     * CHANGED FROM ORIGINAL
+     * Modifier: [NAME / HANDLE] <[CONTACT]>
+     * Date: [YYYY-MM-DD]
+     * Change Summary: [Specific description of what changed and why.]
+     *
+     * This file contains modifications to pre-existing material from
+     * [PROJECT NAME], Copyright (c) [YEAR] [COPYRIGHT HOLDER],
+     * distributed under the [PROJECT NAME] Modification-Notice
+     * Permissive Software License, Version 1.0. See LICENSE.
+     */
+
+For a section-level modification only:
+
+    // CHANGED FROM ORIGINAL — SECTION: [function/class/section name]
+    // Modifier: [NAME] on [YYYY-MM-DD]
+    // Change: [Specific description of the change to this section.]
+
+For a New Original Contribution (optional — no notice required):
+
+    /*
+     * [FILE NAME]
+     * Copyright (c) [YEAR] [YOUR NAME]
+     * This is a New Original Contribution to [PROJECT NAME] and
+     * contains no modified pre-existing material.
+     * [Optional: state the license terms you are applying to this
+     * file, if different from the project's default License.]
+     */
+
+
+APPENDIX B — QUICK REFERENCE: MODIFICATION vs. NEW CONTRIBUTION
+
+  Scenario                                          → Requires Notice?
+  ------------------------------------------------------------------
+  Editing 3 lines in an existing file                → YES (that file)
+  Adding a brand-new file, written from scratch       → NO
+  Same commit: edit old file + add new file           → YES for the
+                                                          old file only
+  Copying a function from an old file into a new one  → YES, for the
+                                                          copied portion
+                                                          only
+  Moving a function from file A to file B              → YES, for BOTH
+                                                          files
+  Rewriting a function from scratch (new expression,
+  same name/purpose/signature)                         → NO
+  Reformatting an entire existing file                 → YES
+
+  Rule of thumb: ask whether pre-existing PROTECTED EXPRESSION was
+  copied, adapted, or relocated — not whether the filename is new.
